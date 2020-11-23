@@ -72,7 +72,7 @@ install_prereq() {
     echo -e "done.\n"
 
     echo -n "Installing postgresql... "
-    sudo apt-get update -qq &> /dev/null && sudo apt-get install -y -qq postgresql-9.6 postgresql-contrib-9.6 libpq-dev &>> $logfile || \
+    sudo apt-get update -qq &> /dev/null && sudo apt-get install -y -qq postgresql-12 postgresql-contrib-12 libpq-dev &>> $logfile || \
     { echo "Could not install postgresql. Exiting." && exit 1; }
     echo -e "done.\n"
 
