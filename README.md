@@ -1,4 +1,4 @@
-## SHIFT version 6.9.0
+## SHIFT version 6.9.0 ***for U 20.04. Unofficial***
 
 ## Installation
 
